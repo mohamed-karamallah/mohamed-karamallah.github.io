@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ashraf Karamallah — Software Engineer</title>
+    <meta name="description"
+        content="Portfolio of Mohamed Ashraf Karamallah — Software Engineer specializing in Backend, Systems Programming, AI/ML, and Full-Stack Development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#" class="nav__logo">M<span class="accent">.</span>K</a>
+            <div class="nav__links">
+                <a href="#about" class="nav__link">About</a>
+                <a href="#skills" class="nav__link">Skills</a>
+                <a href="#projects" class="nav__link">Projects</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </div>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav__mobile" id="navMobile">
+            <a href="#about" class="nav__link">About</a>
+            <a href="#skills" class="nav__link">Skills</a>
+            <a href="#projects" class="nav__link">Projects</a>
+            <a href="#contact" class="nav__link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <p class="hero__greeting" data-animate="fade-up">Hi, I'm</p>
+            <h1 class="hero__name" data-animate="fade-up" data-delay="1">Mohamed Ashraf<br><span
+                    class="accent">Karamallah</span></h1>
+            <p class="hero__title" data-animate="fade-up" data-delay="2">Software Engineer</p>
+            <p class="hero__desc" data-animate="fade-up" data-delay="3">Building robust systems across the full stack —
+                from low-level OS schedulers to real-time collaborative apps and AI-powered solutions.</p>
+            <div class="hero__cta" data-animate="fade-up" data-delay="4">
+                <a href="#projects" class="btn btn--primary">View Projects</a>
+                <a href="https://github.com/mohamed-karamallah" target="_blank" rel="noopener" class="btn btn--ghost">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <div class="hero__scroll" data-animate="fade-up" data-delay="5">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section__title" data-animate="fade-up">About <span class="accent">Me</span></h2>
+            <div class="about__grid">
+                <div class="about__text" data-animate="fade-up" data-delay="1">
+                    <p>I'm a Computer Engineering student and software engineer passionate about building impactful
+                        software. My work spans <strong>backend systems</strong>, <strong>systems programming</strong>,
+                        <strong>AI/ML pipelines</strong>, and <strong>full-stack applications</strong>.</p>
+                    <p>From designing OS-level schedulers in C to building real-time collaborative editors with CRDTs in
+                        Java, I thrive on solving complex problems with elegant code. I also have experience with music
+                        streaming platforms (Node.js/Express/Redis), computer vision (OCR pipelines), and hardware
+                        design (Verilog).</p>
+                    <p>I believe in writing clean, maintainable code and continuously learning new technologies to stay
+                        at the cutting edge of software engineering.</p>
+                </div>
+                <div class="about__stats" data-animate="fade-up" data-delay="2">
+                    <div class="stat">
+                        <span class="stat__number" data-count="11">0</span><span class="accent">+</span>
+                        <span class="stat__label">Public Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number" data-count="8">0</span><span class="accent">+</span>
+                        <span class="stat__label">Languages Used</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number" data-count="5">0</span><span class="accent">+</span>
+                        <span class="stat__label">Domains Covered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+        <div class="container">
+            <h2 class="section__title" data-animate="fade-up">Tech <span class="accent">Stack</span></h2>
+            <div class="skills__grid">
+                <div class="skill-card" data-animate="fade-up" data-delay="0">
+                    <div class="skill-card__icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Python, Jupyter, OpenCV, Scikit-learn, Pandas, NumPy</p>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="1">
+                    <div class="skill-card__icon">🖥️</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express.js, Java, Redis, BullMQ, REST APIs</p>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="2">
+                    <div class="skill-card__icon">🗄️</div>
+                    <h3>Databases</h3>
+                    <p>SQL Server, MongoDB, Redis Caching, Entity Framework</p>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="3">
+                    <div class="skill-card__icon">🌐</div>
+                    <h3>Frontend & UI</h3>
+                    <p>React, JavaFX, Streamlit, HTML/CSS/JS, C# WinForms</p>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="4">
+                    <div class="skill-card__icon">⚙️</div>
+                    <h3>Systems & Low-Level</h3>
+                    <p>C, C++, Verilog, OS Scheduling, Memory Management, IPC</p>
+                </div>
+                <div class="skill-card" data-animate="fade-up" data-delay="5">
+                    <div class="skill-card__icon">🛡️</div>
+                    <h3>Security & Tools</h3>
+                    <p>Cryptography, CTF, Git, Docker, Maven, Agile, CRDT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section__title" data-animate="fade-up">Featured <span class="accent">Projects</span></h2>
+            <div class="projects__grid">
+
+                <article class="project-card" data-animate="fade-up" data-delay="0">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/Pulsify-dev" target="_blank" rel="noopener"
+                            class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Pulsify Backend</h3>
+                    <p class="project-card__desc">High-performance music streaming architecture. Engineered scalable
+                        Discovery and Feed modules utilizing Redis caching and BullMQ for async background job
+                        processing.</p>
+                    <div class="project-card__tags">
+                        <span>Node.js</span><span>Redis</span><span>BullMQ</span><span>Architecture</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="1">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/Football-Players-Market-Value-Predictor"
+                            target="_blank" rel="noopener" class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Football Market Predictor</h3>
+                    <p class="project-card__desc">Machine learning project evaluating football player market values
+                        using Gradient Boosted Trees (GBT). Includes performance analysis, model evaluation, and outlier
+                        case studies.</p>
+                    <div class="project-card__tags">
+                        <span>Jupyter</span><span>Python</span><span>Machine Learning</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="2">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/ID-Scanner" target="_blank" rel="noopener"
+                            class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">ID Scanner — Arabic OCR</h3>
+                    <p class="project-card__desc">End-to-end OCR pipeline for extracting student data from college ID
+                        cards. Arabic text recognition with EasyOCR, SVM classification, and a Streamlit dashboard.</p>
+                    <div class="project-card__tags">
+                        <span>Python</span><span>OpenCV</span><span>EasyOCR</span><span>Scikit-learn</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="3">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/collaborative-text-editor" target="_blank"
+                            rel="noopener" class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Collaborative Text Editor</h3>
+                    <p class="project-card__desc">Real-time collaborative editor using CRDT for conflict-free concurrent
+                        editing. Features cursor tracking, user presence, permissions, undo/redo, and import/export.</p>
+                    <div class="project-card__tags">
+                        <span>Java</span><span>JavaFX</span><span>CRDT</span><span>Networking</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="4">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/OS-Scheduler" target="_blank" rel="noopener"
+                            class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">OS Process Scheduler</h3>
+                    <p class="project-card__desc">Complete OS scheduler with process management, buddy-system memory
+                        allocation, priority queues, IPC via message passing, and a clock module — all in C.</p>
+                    <div class="project-card__tags">
+                        <span>C</span><span>OS</span><span>Memory Mgmt</span><span>IPC</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="5">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/Secure-password-manager" target="_blank"
+                            rel="noopener" class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Secure Password Manager</h3>
+                    <p class="project-card__desc">A comprehensive secure password manager and vault export system.
+                        Features robust cryptographic implementations, CTF challenges, and secure user authentication.
+                    </p>
+                    <div class="project-card__tags">
+                        <span>Python</span><span>Cryptography</span><span>Security</span><span>CTF</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="6">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/Aquarium-Database-System" target="_blank"
+                            rel="noopener" class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Aquarium Database System</h3>
+                    <p class="project-card__desc">Full-stack database management system for aquarium operations — staff,
+                        species, events, tickets, souvenirs, and reviews. Built with SQL Server and C#.</p>
+                    <div class="project-card__tags">
+                        <span>C#</span><span>SQL Server</span><span>.NET</span><span>DBMS</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="7">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/Clinic-Management-System" target="_blank"
+                            rel="noopener" class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Clinic Management System</h3>
+                    <p class="project-card__desc">C-based system with admin and user modes for managing patient records,
+                        appointment scheduling, and reservation tracking using linked lists.</p>
+                    <div class="project-card__tags">
+                        <span>C</span><span>Linked Lists</span><span>CLI</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="8">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/3-Bit-Calculator" target="_blank" rel="noopener"
+                            class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">3-Bit ALU Calculator</h3>
+                    <p class="project-card__desc">Verilog hardware design implementing a 3-bit ALU with add, subtract,
+                        multiply, and remainder operations. Includes full/half adders and comprehensive testbenches.</p>
+                    <div class="project-card__tags">
+                        <span>Verilog</span><span>Digital Design</span><span>ALU</span>
+                    </div>
+                </article>
+
+                <article class="project-card" data-animate="fade-up" data-delay="9">
+                    <div class="project-card__header">
+                        <svg class="project-card__folder" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                        </svg>
+                        <a href="https://github.com/mohamed-karamallah/alien-invasion" target="_blank" rel="noopener"
+                            class="project-card__link" aria-label="View on GitHub">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                <polyline points="15 3 21 3 21 9" />
+                                <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                    <h3 class="project-card__title">Alien Invasion — Battle Sim</h3>
+                    <p class="project-card__desc">C++ strategy game simulating battles between Earth and Alien armies.
+                        Uses priority queues, linked lists, and stacks for turn-based combat with healing mechanics.</p>
+                    <div class="project-card__tags">
+                        <span>C++</span><span>DSA</span><span>OOP</span><span>Game Sim</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+        <div class="container container--narrow">
+            <h2 class="section__title" data-animate="fade-up">Get In <span class="accent">Touch</span></h2>
+            <p class="contact__text" data-animate="fade-up" data-delay="1">I'm always open to discussing new projects,
+                opportunities, or collaborations. Feel free to reach out!</p>
+            <div class="contact__links" data-animate="fade-up" data-delay="2">
+                <a href="https://github.com/mohamed-karamallah" target="_blank" rel="noopener" class="contact__card">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/mohamed-karamallah-900250224" target="_blank" rel="noopener" class="contact__card">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:mkaramallah29@gmail.com" class="contact__card">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2" />
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed & Built by <span class="accent">Mohamed Karamallah</span> &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
